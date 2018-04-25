@@ -1,0 +1,9 @@
+Features Selected ,Accuracy,Comments
+"Age, CreditScore",77.456,Firstly we select the age and creditScore(it show that the score of customer credit )it tell us that the customer is using our services when customer use our services company give him a gift like credit score. 
+"Age, CreditScore, Tenure",77.55,when we add tenure(it show that the dureation of connection  btw customer and company) in our model it  increse the accurecy on 0.1%
+"Age, CreditScore, Tenure,Balance",77.987,when we add Balance(it show that the pending balance of customer)in our model it increse the accurecy on 0.43%
+"Age, CreditScore, Tenure,Balance, NumOfProducts",78.012,when we add NumOfProducts (it show that the how much customer buying our products)in our model it increse the accuercy on 0.02%
+"Age, CreditScore, Balance, ProductPerYear",77.91,we create a new feature Productperyear = Tenure/NumOfProduct
+"Age, CreditScore, Balance, ProductPerYear, HasCrCard",77.91,when we add HasCrCard(it show that the customer have cr card or not )but we know that it does not relates with our prediction and also its not effect on accurecy.
+"Age, CreditScore, Balance, ProductPerYear, IsActiveMember",80.487,when we add IsActiveMember(it show that the customer is using our product or not)it is important that our model know about that thae customer is active or not 
+"Age, CreditScore, Balance, ProductPerYear,  IsActiveMember,EstimatedSalary",80.494,when we add EstimatedSalary(it show the customer estimated salary)it is 0.01% effect on our model
